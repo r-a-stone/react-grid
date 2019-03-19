@@ -11,6 +11,7 @@
     "build-dev": "npm run build && npm link",
     "test": "jest"
   },
+  "homepage": "https://github.com/r-a-stone/react-grid",
   "author": "Rocky Stone <rastone@webcode.io>",
   "license": "MIT",
   "bugs": {
