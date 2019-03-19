@@ -1,0 +1,37 @@
+{
+  "name": "@webcode.io/react-grid",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean-dist": "rm -rf dist",
+    "clean-deps": "rm -rf ./node_modules && rm ./package-lock.json",
+    "transpile": "npm run clean-dist && babel src -d dist",
+    "build": "npm run clean-dist && npm i && npm run transpile && npm run test && npm run clean-deps",
+    "build-dev": "npm run build && npm link",
+    "test": "jest"
+  },
+  "author": "Rocky Stone <rastone@webcode.io>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "react-test-renderer": "^16.8.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}

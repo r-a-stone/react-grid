@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column renders without crashing. 1`] = `
+<div
+  className="sc-bwzfXH XRERC"
+>
+  Content
+</div>
+`;
+
+exports[`Column with context renders without crashing. 1`] = `
+<div
+  className="sc-bwzfXH XRERC"
+>
+  Content
+</div>
+`;
