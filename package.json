@@ -1,7 +1,7 @@
 {
   "name": "@webcode.io/react-grid",
   "version": "1.0.4",
-  "description": "",
+  "description": "React flexbox grid system built with styled components.",
   "main": "dist/index.js",
   "scripts": {
     "clean-dist": "rm -rf dist",
@@ -13,6 +13,9 @@
   },
   "author": "Rocky Stone <rastone@webcode.io>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-a-stone/react-grid/issues"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
